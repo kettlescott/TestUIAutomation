@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CPGroupTest">
+    <test name="CPGroupTest" >
+        <classes>
+            <class name="com.scott.web.tests.tests.AusPostAutomation">
+                <methods>
+                    <include name="testCalculation" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

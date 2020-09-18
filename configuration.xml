@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <appSettings>
+        <add key="URL" value="https://auspost.com.au/parcels-mail/calculate-postage-delivery-times#/" />
+        <add key="REPORT" value="target\" />
+        <add key="DRIVER" value="chrome"/>
+    </appSettings>
+</configuration>
