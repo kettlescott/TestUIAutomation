@@ -10,12 +10,11 @@ This is a automation framework for campaign monitor. I re-write webdriver defaul
 # Build and Test
 1.mvn clean install -DskipTests
 
-2.Run mvn clean install -Dsurefire.suiteXmlFiles=".\cpGroupTestsuite.xml" -DconfigFilePath=".\configuration.xml"
+2.Run mvn clean install -Dsurefire.suiteXmlFiles=".\Testsuite.xml" -DconfigFilePath=".\configuration.xml"
 
 3.test report is under target folder
 
-# Docker and zalenium
-The framework supports docker and zalenium, please update REMOTE_DRIVER_URL to you own hub
+
 
 
 
