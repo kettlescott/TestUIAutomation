@@ -4,6 +4,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.awaitility.Awaitility.with;
 
 import com.scott.web.base.elements.widget.Button;
+import com.scott.web.base.elements.widget.Label;
 import com.scott.web.base.elements.widget.Link;
 import com.scott.web.base.elements.widget.TextInput;
 import com.scott.web.datarepublic.elements.widget.ParcelInforComp;
@@ -24,6 +25,12 @@ public class ParcelServicesPage extends WebPage {
 
   @FindAll(@FindBy(css = "div.postage-service"))
   public List<ParcelInforComp> parcelServices;
+
+  @FindAll(@FindBy(css = "div.errorMessageBox"))
+  public List<Label> errors;
+
+  @FindAll(@FindBy(css = "div.delivery-times__input-field-container__error-message-container"))
+  public List<ParcelInforComp> date_errors;
 
   @FindBy(name = "lengthInput")
   public TextInput length;

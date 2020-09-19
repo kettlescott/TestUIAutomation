@@ -15,7 +15,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AusPostAutomation extends AutoTest {
+public class HappyPathTest extends AutoTest {
 
   CalculatePage calculatePage;
 

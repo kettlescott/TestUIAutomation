@@ -2,9 +2,29 @@
 <suite name="CPGroupTest">
     <test name="CPGroupTest" >
         <classes>
-            <class name="com.scott.web.tests.tests.AusPostAutomation">
+            <class name="com.scott.web.tests.tests.HappyPathTest">
                 <methods>
                     <include name="testCalculation" />
+                </methods>
+            </class>
+            <class name="com.scott.web.tests.tests.NegativePathTest">
+                <methods>
+                    <include name="testInvalidAddress" />
+                </methods>
+                <methods>
+                    <include name="testInvalidBox_Size_Weight_Length_Height_width" />
+                </methods>
+                <methods>
+                    <include name="test_non_numeric_characters_Weight_Length_Height_width" />
+                </methods>
+                <methods>
+                    <include name="test_empty_input" />
+                </methods>
+                <methods>
+                    <include name="testInvalidDeliverDate" />
+                </methods>
+                <methods>
+                    <include name="testEmptyDate" />
                 </methods>
             </class>
         </classes>
