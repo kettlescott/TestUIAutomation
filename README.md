@@ -77,6 +77,11 @@ Configuration is under ./configuration.xml
 ```
 
 
+# Test
+1. Happy Path is under HappyPathTest.java
+
+2. Negative test is under NegativePathTest.java
+
 
 # Coding Style
 1.The java project follows google'java coding format, for detail please refer to [Google Java Format!](https://github.com/google/google-java-format)
