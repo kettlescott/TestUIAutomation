@@ -39,7 +39,7 @@ Configuration is under ```./configuration.xml```
 ```
 
 # Update Testsuite.xml
-Configuration is under ```Testsuite.xml```
+Configuration is under ```./Testsuite.xml```
 ```xml
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestSuite">
