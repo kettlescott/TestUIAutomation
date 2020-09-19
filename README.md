@@ -1,6 +1,7 @@
 # Environment
-  Java >= 1.8.0_261
-  Maven >= Apache Maven 3.6.1
+  1. Java >= 1.8.0_261
+
+  2. Maven >= Apache Maven 3.6.1
 
 # Introduction
 This is a automation framework for campaign monitor. I re-write webdriver default core fielddecorator, which gives me more control on webdriver behaviors.
