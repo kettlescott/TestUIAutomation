@@ -3,8 +3,11 @@
 
   2. Maven >= Apache Maven 3.6.1
 
-# Introduction
-This is a automation framework for campaign monitor. I re-write webdriver default core fielddecorator, which gives me more control on webdriver behaviors.
+# Framework Introduction
+The idea behind this framework is to re-write Webdriver core DefaultFieldDecorator.  the default DefaultFieldDecorator is not flexible and does not support customized object
+initialization. By rewriting the default DefaultFieldDecorator, I can use webdriver to support more customized UI components.
+there is an [article!](https://stackoverflow.com/questions/9478592/how-to-implement-user-types-for-findby-annotation) in stacksoverflow which discuss the idea.
+
 
 # Project structure
 ![alt text](https://github.com/kettlescott/CPGroupAutomation/blob/master/projectStructure.PNG)
