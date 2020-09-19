@@ -91,7 +91,7 @@ Configuration is under ./configuration.xml
 # Build and Test
 1.mvn clean install -DskipTests
 
-2.Run mvn clean install -Dsurefire.suiteXmlFiles=".\Testsuite.xml" -DconfigFilePath=".\configuration.xml"
+2.Run mvn test -Dsurefire.suiteXmlFiles=".\Testsuite.xml" -DconfigFilePath=".\configuration.xml"
 
 3.test report is under target folder
 

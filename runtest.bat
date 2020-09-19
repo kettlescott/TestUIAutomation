@@ -1,1 +1,0 @@
-call mvn clean install -Dsurefire.suiteXmlFiles=".\cpGroupTestsuite.xml" -DconfigFilePath=".\configuration.xml"
