@@ -8,9 +8,9 @@
 initialization. By rewriting the default DefaultFieldDecorator, I can use webdriver to support more customized UI components.
 there is an [article!](https://stackoverflow.com/questions/9478592/how-to-implement-user-types-for-findby-annotation) in stacksoverflow which discuss the idea.
 
-2. The Framework core engine is under  /com/scott/web/tests
+2.The Framework core engine is under  ```/com/scott/web/tests```
 
-3. com/scott/web/datarepublic contains customized component I made the for the project
+3.```com/scott/web/datarepublic``` contains customized component I made the for the project
 
 # Efficiency
 
@@ -18,7 +18,7 @@ there is an [article!](https://stackoverflow.com/questions/9478592/how-to-implem
 if a test wants a page object , instead of creating new one,  it will query cache first. if a certain page object is not found, a new page object will be created
 
 2.In memo cache and creating page object is using java reflection. for more details, please refer to
-   \src\main\java\com\scott\web\base\page\PageVisitor.java
+   ```\src\main\java\com\scott\web\base\page\PageVisitor.java```
 
 
 
@@ -67,7 +67,7 @@ Configuration is under ./configuration.xml
 
 
 # Coding Style
-1.The java project follows google'java coding format, for detail please refer to [Google Java Format!](https://github.com/google/google-java-format)
+1.The java project follows google'java coding format, for detail please refer to [Google Java Format](https://github.com/google/google-java-format)
 
 2.Run ```mvn git-code-format:format-code -Dgcf.globPattern=**/*``` to check and format java code
 
