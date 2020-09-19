@@ -1,14 +1,14 @@
 # Environment
-  1. JDK >= 1.8.0_261
+  ###### 1. JDK >= 1.8.0_261
 
-  2. Maven >= Apache Maven 3.6.1
+  ###### 2. Maven >= Apache Maven 3.6.1
 
 # Framework Introduction
-1 .The idea behind this framework is to re-write Webdriver core DefaultFieldDecorator.  The default DefaultFieldDecorator is not flexible and does not support customized object
+###### 1 .The idea behind this framework is to re-write Webdriver core DefaultFieldDecorator.  The default DefaultFieldDecorator is not flexible and does not support customized object
 initialization. By rewriting the default DefaultFieldDecorator, I can use webdriver to support more customized UI components.
 there is an [article](https://stackoverflow.com/questions/9478592/how-to-implement-user-types-for-findby-annotation) in stacksoverflow which discuss the idea.
 
-2.The Framework core engine is under  ```/com/scott/web/tests```
+###### 2.The Framework core engine is under  ```/com/scott/web/tests```
 
 3.```com/scott/web/datarepublic``` contains customized component I made the for the project
 
