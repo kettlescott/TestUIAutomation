@@ -38,6 +38,45 @@ Configuration is under ./configuration.xml
 </configuration>
 ```
 
+# Update Testsuite.xml
+Configuration is under ./configuration.xml
+```
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CPGroupTest">
+    <test name="CPGroupTest" >
+        <classes>
+            <class name="com.scott.web.tests.tests.HappyPathTest">
+                <methods>
+                    <include name="testCalculation" />
+                </methods>
+            </class>
+            <class name="com.scott.web.tests.tests.NegativePathTest">
+                <methods>
+                    <include name="testInvalidAddress" />
+                </methods>
+                <methods>
+                    <include name="testInvalidBox_Size_Weight_Length_Height_width" />
+                </methods>
+                <methods>
+                    <include name="test_non_numeric_characters_Weight_Length_Height_width" />
+                </methods>
+                <methods>
+                    <include name="test_empty_input" />
+                </methods>
+                <methods>
+                    <include name="testInvalidDeliverDate" />
+                </methods>
+                <methods>
+                    <include name="testEmptyDate" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+```
+
+
 
 # Coding Style
 1.The java project follows google'java coding format, for detail please refer to [Google Java Format!](https://github.com/google/google-java-format)
