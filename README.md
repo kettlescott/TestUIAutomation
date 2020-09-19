@@ -72,7 +72,7 @@ Configuration is under ./configuration.xml
 2.Run ```mvn git-code-format:format-code -Dgcf.globPattern=**/*``` to check and format java code
 
 # Build and Test
-1.mvn clean install -DskipTests
+1.Run ```mvn clean install -DskipTests```
 
 2.Run ```mvn test -Dsurefire.suiteXmlFiles=".\Testsuite.xml" -DconfigFilePath=".\configuration.xml"```
 
