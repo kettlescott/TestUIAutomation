@@ -42,33 +42,16 @@ Configuration is under ./configuration.xml
 Configuration is under ./configuration.xml
 ```
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="CPGroupTest">
-    <test name="CPGroupTest" >
+<suite name="TestSuite">
+    <test name="HappyPath" >
         <classes>
             <class name="com.scott.web.tests.tests.HappyPathTest">
-                <methods>
-                    <include name="testCalculation" />
-                </methods>
             </class>
+        </classes>
+    </test>
+    <test name="Negative Test" >
+        <classes>
             <class name="com.scott.web.tests.tests.NegativePathTest">
-                <methods>
-                    <include name="testInvalidAddress" />
-                </methods>
-                <methods>
-                    <include name="testInvalidBox_Size_Weight_Length_Height_width" />
-                </methods>
-                <methods>
-                    <include name="test_non_numeric_characters_Weight_Length_Height_width" />
-                </methods>
-                <methods>
-                    <include name="test_empty_input" />
-                </methods>
-                <methods>
-                    <include name="testInvalidDeliverDate" />
-                </methods>
-                <methods>
-                    <include name="testEmptyDate" />
-                </methods>
             </class>
         </classes>
     </test>
