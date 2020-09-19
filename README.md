@@ -23,7 +23,7 @@ if a test wants a page object , instead of creating new one,  it will query cach
 
 
 # Project structure
-![alt text](https://github.com/kettlescott/CPGroupAutomation/blob/master/projectStructure.PNG)
+![alt text](https://github.com/kettlescott/CPGroupAutomation/blob/master/Automation.PNG)
 
 # Update configuration.xml
 ![alt text](https://github.com/kettlescott/CPGroupAutomation/blob/master/config.PNG)
