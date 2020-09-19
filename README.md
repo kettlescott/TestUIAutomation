@@ -26,7 +26,18 @@ if a test wants a page object , instead of creating new one,  it will query cach
 ![alt text](https://github.com/kettlescott/TestUIAutomation/blob/master/Automation.jpg)
 
 # Update configuration.xml
-![alt text](https://github.com/kettlescott/CPGroupAutomation/blob/master/config.PNG)
+Configuration is under ./configuration.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <appSettings>
+        <add key="URL" value="https://auspost.com.au/parcels-mail/calculate-postage-delivery-times#/" />
+        <add key="REPORT" value="target\" />
+        <add key="DRIVER" value="chrome"/>
+    </appSettings>
+</configuration>
+```
+
 
 # Coding Style
 1.The java project follows google'java coding format, for detail please refer to [Google Java Format!](https://github.com/google/google-java-format)
