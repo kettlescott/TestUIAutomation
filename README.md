@@ -12,6 +12,14 @@ there is an [article!](https://stackoverflow.com/questions/9478592/how-to-implem
 
 3. com/scott/web/datarepublic contains customized component I made the for the project
 
+#Efficiency
+
+1 .I developed a in memory cache which is able to speedup UI tests. the idea is when a new page object is created , it will stores in a in-memory-cache.
+if a test wants a page object , instead of creating new one,  it will query cache first. if a certain page object is not found, a new page will be created
+
+2. In memo cache and creating page object is using java reflection. for more details, please refer to
+   \src\main\java\com\scott\web\base\page\PageVisitor.java
+
 
 
 # Project structure
